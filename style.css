@@ -1,0 +1,89 @@
+.mdl-textfield__input {
+    width: 100%;
+    font-style: inherit;
+    font-variant: inherit;
+    font-stretch: inherit;
+    font-family: inherit;
+    font-optical-sizing: inherit;
+    font-kerning: inherit;
+    font-feature-settings: inherit;
+    font-variation-settings: inherit;
+    letter-spacing: inherit;
+    color: currentcolor;
+    border: 0px;
+    box-sizing: content-box;
+    background: none;
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    animation-name: mui-auto-fill-cancel;
+    animation-duration: 10ms;
+    padding: 16.5px 14px;
+    font-weight: 500;
+    line-height: 24px;
+    height: 24px;
+    font-size: 14px !important;
+}
+
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label, .mdl-textfield--floating-label.is-dirty .mdl-textfield__label, .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {
+  
+    font-size: 12px;
+    top: -9px;
+    background:white;
+    visibility: visible;
+    left: 0.8rem;
+       color: rgb(99, 102, 241) !important;
+}
+
+.mdl-textfield__label {
+   width:fit-content;
+   height:fit-content;
+   left: 14px;
+   top: 18px;
+}
+
+.mdl-textfield {
+     min-height: 24px;
+     font-size: 14px !important;
+     display: inline-flex;
+     padding: 0;
+}
+
+
+.mdl-textfield__label {
+    color: rgb(108, 115, 127);
+    line-height: 1.4375em;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 500;
+  
+    
+}
+
+.mdl-textfield-container{
+    display: block;
+    position: relative;
+    min-width: 0px;
+    margin: 0px 0px 8px;
+    vertical-align: top;
+    width: fit-content;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border: 1px solid rgb(204, 204, 255) !important;
+}
+
+ /* Placeholder style */
+ .mdl-textfield__placeholder{
+ 
+    position: absolute;
+    left: 6px;
+    top: 18px;
+    padding-left: 8px;
+    color: transparent;
+    pointer-events: none;
+    transition: top 0.2s ease-out, font-size 0.2s ease-out;
+    font-weight: 500;
+}
+ .mdl-textfield--floating-label.is-focused .mdl-textfield__placeholder{
+    color: #575757;
+ }
