@@ -141,5 +141,7 @@ export default defineComponent({
 
 .v-field--variant-outlined .v-label.v-field-label--floating {
   color: var(--v-field-caption-color) !important;
+}.v-row{
+  align-items: flex-end;
 }
 </style>
